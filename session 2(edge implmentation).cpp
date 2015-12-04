@@ -8,7 +8,8 @@ using namespace std;
 using namespace cv;
 
 
-void main(){
+void main()
+{
 
 	//first method  edge detection  by implmentation convolution
 	Mat image, kernel;
