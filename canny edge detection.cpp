@@ -32,7 +32,7 @@ void CannyThreshold(int, void*)
 int main()
 {
 
-  image = imread("image.jpg");
+	image = imread("image.jpg");
 	if (!image.data)
 	{
 		cout << "Could not open or find the image" << std::endl;
@@ -47,5 +47,5 @@ int main()
 
 	/// Wait until user exit program by pressing a key
 	waitKey(0);
-  return 0;
+	return 0;
 }
